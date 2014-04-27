@@ -1,0 +1,38 @@
+<div class="${baseClass}">
+    <div id="${id}BorderContainer" data-dojo-props="design: 'headline'" data-dojo-type="dijit.layout.BorderContainer">
+        <div id="${id}Heading" class="BorderHeader" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region: 'top'">
+            <div style="float:left">
+                <h1>
+                    <span class="fa fa-sign-in"></span> Home
+                </h1>
+            </div>
+            <div style="float:right;vertical-align:bottom">
+                <h4>
+                    <a href="/profile">Profile</a>
+                </h4>
+            </div>
+        </div>
+        <div id="${id}Center" class="BorderCenter" data-dojo-props="region: 'center'" data-dojo-type="dijit.layout.ContentPane">
+            <div class="container">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <h3>
+                        <a href="/fullapp/index.html">Full App Demo</a>
+                    </h3>
+                    <h3>
+                        <a href="/eclwatch/?Widget=ECLPlaygroundWidget">ECL Playground</a>
+                    </h3>
+                    <h3>
+                        <a href="/helloworld/index.html">Hello World</a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="BorderFooter" data-dojo-props="region: 'bottom'" data-dojo-type="dijit.layout.ContentPane">
+            <div class="text-center">
+                <p>
+                    Sources:  <a href="https://github.com/GordonSmith/dojo-boilerplate/tree/HPCCResourceDemo">GitHub</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

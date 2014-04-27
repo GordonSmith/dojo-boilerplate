@@ -1,0 +1,29 @@
+{
+    "name": "serverApp",
+    "version": "1.0.0",
+    "dependencies": {
+        "express": "~4.0.0",
+        "express-session": "~1.0.3",
+        "body-parser": "~1.0.2",
+        "cookie-parser": "~1.0.0",
+        "ejs" : "~0.8.5",
+        "mongoose" : "~3.8.1",
+        "http-proxy": "~1.1.0",
+        "request": "~2.34.0",
+        "passport": "~0.2.0",
+        "passport-local" : "~0.1.6",
+        "passport-facebook": "~1.0.3",
+        "passport-twitter" : "~1.0.2",
+        "passport-google-oauth" : "~0.1.5",
+        "connect-flash" : "~0.1.1",
+        "bcrypt-nodejs" : "latest"
+    },
+    "main": "server.js",
+    "licenses": [
+        {
+            "type": "BSD",
+            "url": "https://github.com/kitsonk/dote-node-boilerplate/blob/master/LICENSE"
+        }
+    ],
+    "homepage": "https://github.com/kitsonk/dote-node-boilerplate/"
+}
