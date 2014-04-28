@@ -1,1 +1,3 @@
 dist
+/node_modules
+/src/app-server/config/auth_private.js
